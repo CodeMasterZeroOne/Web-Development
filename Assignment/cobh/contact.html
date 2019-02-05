@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <!-- tell HTML where to find main.css -->
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+</head>
+
+<body class="contact">
+    <img class="topimage" src="img/5.jpg">
+
+
+    <!--/.Navbar-->
+    <nav>
+        <ol class="navbar">
+            <!-- goes home -->
+            <li><a href="index.html">Home</a></li>
+            <!-- goes to restaurants -->
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <!-- goes to hotels -->
+            <li><a href="hotels.html">Hotels</a></li>
+            <!-- goes to about-->
+            <li><a href="about.html">About</a></li>
+            <!-- goes to contact-->
+            <li><a href="#">Contact</a></li>
+        </ol>
+    </nav>
+    <div>
+        <form action="index.php">
+            Client namne: <input type="text" name="name"><br>
+            Email address: <input type="email" name="email"><br>
+            Enquiry category:
+            <select name="category">
+                <option value="information">Information request</option>
+                <option value="website">Website changes</option>
+                <option value="event">Event or news</opton>
+                <option value="other">Other</opton>
+            </select><br>
+            Subject: <input type="text" name="subject"><br>
+            Comments: <textarea rows="5" cols="30"></textarea> 
+            <!-- There must be an email link -->
+    <a href="mailto:yourEmail@domain.com"><img src="img/button.png" style="width:300px;     height:100px; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;"></a>
+        </form>
+    </div>
+    
+
+    <footer>
+        &copy;
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>, Pawel Gajewski.
+    </footer>
+</body>
+
+</html>
