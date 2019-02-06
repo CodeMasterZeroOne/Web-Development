@@ -21,37 +21,63 @@
             <!-- goes home -->
             <li><a href="index.html">Home</a></li>
             <!-- goes to restaurants -->
-            <li><a href="restaurants.html">Restaurants</a></li>
-            <!-- goes to hotels -->
-            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="restaurants.html">Eat &amp; Drink</a></li>
+            <!-- goes to Stay -->
+            <li><a href="hotels.html">Stay</a></li>
             <!-- goes to about-->
             <li><a href="about.html">About</a></li>
             <!-- goes to contact-->
             <li><a href="#">Contact</a></li>
         </ol>
     </nav>
-    <div>
-        <form action="index.php">
-            Client namne: <input type="text" name="name"><br>
-            Email address: <input type="email" name="email"><br>
-            Enquiry category:
-            <select name="category">
-                <option value="information">Information request</option>
-                <option value="website">Website changes</option>
-                <option value="event">Event or news</opton>
-                <option value="other">Other</opton>
-            </select><br>
-            Subject: <input type="text" name="subject"><br>
-            Comments: <textarea rows="5" cols="30"></textarea> 
-            <!-- There must be an email link -->
-    <a href="mailto:yourEmail@domain.com"><img src="img/button.png" style="width:300px;     height:100px; 
-        margin-left: auto;
-        margin-right: auto;
-        display: block;"></a>
-        </form>
-    </div>
-    
+    <section style="text-align:center">
+        <h3>Cobh Tourist Office</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.561917774101!2d-8.29745268388211!3d51.850695979692944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484483a41af07e11%3A0xced3184e77244712!2sCobh+Tourist+Office!5e0!3m2!1sen!2sie!4v1549447795046" width="50%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <p>
+                <h4>Address:</h4>
+                Market House, Casement Square,
+                Cobh, Co. Cork, P24HP29
+                Ireland
+        </p>
+        <p>
+                <h4>Phone:</h4>
+                +353 (0) 21 4813301
+        </p>
+        <p>
+                <h4>Email:</h4>
+                yourEmail@domain.com
+            </p>
+            <!-- tourism@cobhharbourchamber.ie -->
+            
+    </section>
+        <div style="text-align:center">
+            <form action="">
+                <br><br>
+                <h3>Contact us:</h3>
+                Client name: <input type="text" name="name" id="user" style="margin-left:15px"><br><br>
+                Email address: <input type="email" name="email" id="email"><br><br>
+                Enquiry category:
+                <select name="category" id="category" style="margin-left:10px">
+                    <option value="Information request">Information request</option>
+                    <option value="Website changes">Website changes</option>
+                    <option value="Event or news">Event or news</opton>
+                    <option value="Other">Other</opton>
+                </select><br><br>
+                Subject: <input type="text" name="subject" id="subject" style="margin-left:40px"><br><br>
+                Comments: <br><textarea rows="5" cols="30" id="comments" style="width:30%"></textarea><br><br><br>
+                <!-- There must be an email link -->
+                <div>
+                    <img onclick="sendMail(); return false" src="img/button.png" style="width:300px;     height:100px; 
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;">
+                    <br><br><br>
+                </div>
+            </form>
+        </div>
 
+
+        
     <footer>
         &copy;
         <script type="text/javascript">
