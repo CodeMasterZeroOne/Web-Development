@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topimage {
@@ -84,42 +85,36 @@ li a:hover {
 the format of content including CSS on each of the 5 pages (fonts, colours, backgrounds etc).*/
 
 .home {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100%;
     background-color: rgba(182, 182, 182, .2);
 }
 
 .restaurants {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100%;
     background-color: rgba(250, 65, 85, .2);
 }
 
 .hotels {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100%;
     background-color: rgba(30, 215, 20, .2);
 }
 
 .about {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100%;
     background-color: rgba(65, 200, 250, .2);
 }
 
 .contact {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100%;
     background-color: rgba(240, 250, 40, .2);
 }
 
 footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8em;
     position: relative;
     bottom: 0px;
